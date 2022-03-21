@@ -1,0 +1,428 @@
+ /*Generales*/
+
+ @font-face {
+     font-family: Roboto;
+     src: url(RobotoSlab-VariableFont_wght.ttf);
+ }
+
+ *{
+     font-family: Roboto;
+     margin: 0;
+     
+
+ }
+ body{
+     margin: auto;
+     
+
+ }
+ 
+ 
+
+
+ /*Header*/
+
+ header{
+     display: flex;
+     position:relative;
+     height: 60px;
+     width: 100%;
+     padding: 5px;
+     background: #fff;
+     background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(255,255,255,1) 51%, rgba(238,245,250,1) 55%);
+
+ }
+  img{
+      padding:10px 0 15px 8rem;
+      display: block;
+      
+  }
+   .logo{
+       cursor: pointer;
+       transition: right;
+   }
+
+   .logo:hover{    
+        transform: scale(1.1, 1.1)
+    }
+  
+  
+
+
+ .menu{
+     position: absolute; 
+     right: 1em;
+     top: 20px;
+     font-size: 14px;
+     font-weight: bold; 
+          
+ }
+
+.menu > a{
+     text-decoration: none;
+     margin-left: 25px;
+     margin-right: 50px;
+     color:grey ;
+ }
+
+ .menu >a:last-child{
+    color: #fff;
+    background-color: #2a4ac8 ;
+    border: 2rem;
+    padding: 8px 2em;
+
+ }
+
+ /*Section*/
+  
+
+ /*Divleft*/
+
+ .leftContainer{
+     display: inline-block;
+     position: relative;
+     width: 40%;
+     height: 100%;
+     margin: 100px 0 0 7rem;
+
+     
+ }
+
+ .tituloFight{
+     font-size: 70px;
+     font-weight:900;
+     color: hsl(218deg 57% 28%);
+     
+     
+ }
+
+ .parrafoLets{
+     display: inline-block;
+     position: relative;
+     font-size: 23px;
+     font-weight:lighter;
+     margin-top: 60px;
+     letter-spacing: 1px;
+     color: hsl(218deg 15% 50%) ;
+ }
+
+ /*DivRight*/
+
+ .rightContainer{
+     position: absolute;     
+     display: inline-block;
+     height: 600px;
+     width: 700px;
+     top: 10rem;
+     background: rgb(42,74,200);
+     background: linear-gradient(90deg, rgba(42,74,200,1) 0%, rgba(118,144,245,0.8631827731092436) 87%);        
+     border-radius: 15px;    
+
+ }
+
+
+
+
+ /*Inner DivLeft*/
+
+ .bestSelectedContainer{
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    width: 100%;
+    
+ }
+
+.escuditoAmarillo{
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    left: 0;
+    padding: 0 0 0 0 ;
+    
+    
+}
+ .bestProtection{
+     display: block;
+     position: absolute;
+     top: 6px;
+     left: 3rem;
+     color: hsl(218deg 57% 28%);
+     font-weight: 600; 
+     letter-spacing: .5px;
+     cursor: pointer;
+
+ }
+
+ .estrellita{
+     display: inline;
+     position: absolute;
+     height: 35px;
+     width: 35px;     
+     padding: 0;
+     left: 20rem;
+
+ }
+
+ .selectedVac{
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: 2rem;
+    color: hsl(218deg 57% 28%);
+    font-weight: 600; 
+    letter-spacing: .5px;
+    cursor: pointer;
+
+ }
+
+ /*InnerRight*/
+
+ .rightContainer > img{
+     position: relative;
+     width: 90%;
+     height: 90%;
+     overflow: hidden;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 0;
+     box-shadow: #2a4ac8;
+     
+     border-radius: 10px ;
+     
+     
+     
+ }
+
+ /*Tabla*/
+
+ 
+.Tabla{
+    display: flex;
+    position: relative;
+    top: 100px;    
+  
+
+    
+}
+
+.Tabla > img{
+
+    top: 200px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 100px;
+}
+
+/*DivMarcas*/
+
+.marcasVac{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    top: 150px;
+    filter: blur(60%);
+}
+ .marcasVac > img{
+     height: 80px;
+     width: 200px;
+     object-fit:scale-down;   
+         
+
+ }
+
+.astra{
+    filter: grayscale(1);
+}
+
+.astra:hover{
+    filter: grayscale(0);
+    
+}
+
+.sino{
+    filter: grayscale(1);
+
+
+}
+
+.sino:hover{
+    filter: grayscale(0);
+
+
+}
+
+.pfizer{
+    filter: grayscale(1);
+
+
+}
+ 
+.pfizer:hover{
+    filter: grayscale(0);
+
+
+
+}
+
+.moderna{
+    filter: grayscale(1);
+
+
+}
+
+.moderna:hover{
+    filter: grayscale(0);
+
+
+}
+
+.whyContainer{
+     display: inline-block;
+     position: relative;
+     width: 40%;
+     height: 100%;
+     margin: 30px 0 0 7rem;
+    
+
+}
+.whyShould{
+     font-size: 45px;
+     font-weight:900;
+     color: hsl(218deg 57% 28%);
+}
+
+.inOrder{
+    display: inline-block;
+     position: relative;
+     font-size: 18px;
+     font-weight:lighter;
+     margin-top: 60px;
+     letter-spacing: 1px;
+     color: hsl(218deg 15% 50%) ;
+
+}
+
+.infoContainer{
+    margin: 60px 0 0 11rem;
+    display:flex ;
+    width: 1200px;
+    
+    
+    
+       
+    
+}
+
+.infoContainer > div{
+    
+    height: 200px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    display: block;
+    border: 10px;
+    
+    
+    
+    
+    
+}
+
+.cuadcoolContain, .escuditoContain, .monitosContain, .grupitoContain{
+    padding: 0;
+    box-shadow: #2a4ac8;
+
+}
+
+
+.cuadcoolContain> h4, .escuditoContain> h4, .monitosContain> h4, .grupitoContain> h4{
+    color: hsl(218deg 57% 28%);
+
+
+}
+
+.cuadcoolContain> p, .escuditoContain> p, .monitosContain> p, .grupitoContain> p{
+    color: lightslategray;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: lighter;
+}    
+
+
+
+.cuadcool, .escudito, .monitos, .grupito{
+    padding: 0;
+    padding-left: 60px;
+    cursor: pointer;
+
+}
+
+.preparationContainer{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    padding: 0;
+    width: 40%;
+    
+}
+
+.preparationContainer h2{
+    color:hsl(218deg 57% 28%);
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.preparationContainer p{
+     font-size: 18px;
+     font-weight:lighter;
+     margin-top: 60px;
+     letter-spacing: 1px;
+     color: hsl(218deg 15% 50%)
+
+}
+  .leftContainerMorra{
+      display: inline-block;
+      position: relative;
+      padding: 0;
+      right: 40%;
+      top: 30rem ;
+      
+      
+        }
+
+.listContainer{
+    display: block;
+    position: absolute;
+    width: 50%;
+    padding: 0;
+    right: 0;
+}
+.listContainer div{
+padding: 10px;
+border: 2px;
+border: #2a4ac8;
+}
+.listContainer button{
+    padding: 0;
+    border: none;
+    
+
+    
+}
+.listContainer img{
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    display: inline-block
+    
+    
+}
+
+.listContainer p{
+    display: inline-block;
+}
